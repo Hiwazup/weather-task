@@ -84,6 +84,6 @@ class WeatherControllerValidatorTest {
 
     @Test
     public void getCurrentWeatherValidatorLonOkLatOkCountryOk() {
-        assertDoesNotThrow(() -> validator.getCurrentWeatherValidator(null, "", "123.123","456.789"));
+        assertDoesNotThrow(() -> validator.getCurrentWeatherValidator(null, "Ireland", "123.123","456.789"));
     }
 }
